@@ -1,4 +1,4 @@
-#x-push: /test/basic
+x-push: /test/basic
 x-push-path: /test/path
 x-push-create: /test/create.js
 x-preload-push: /test/preload.css
@@ -30,7 +30,7 @@ x-invalid-push: /invalid/test.js
 x-weird-push: /ñ/test.js
 x-exp-push: /exp/test
 x-bin-push: 01010101/test.js
-x-login-push: /auth/test.js**
+x-login-push: /auth/test.js
 
 ```---
 
