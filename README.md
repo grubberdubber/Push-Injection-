@@ -6,33 +6,60 @@ x-push-create: /test/create.js
 
 x-preload-push: /test/preload.css
 :authority: injected.example
+
 x-h2-pseudo: /test/pseudo
 :path: /?x-push=/test/promise.js
+
 x-scheme-push: /test/scheme
+
 x-push-cache: /test/cache
+
 x-push-private: /test/private.json
+
 x-push-shadow: /test/shadow.html
+
 x-push-stream: 9
+
 x-push-target: /test/stream
+
 x-cross-conn-push: /test/cross
+
 x-reverse-push: /test/reverse
+
 x-hidden-stream: /test/hidden.js
+
 x-dup-push: /dup/test1.js
+
 x-dup-push: /dup/test2.js
+
 x-multi-push: /multi/1.js,/multi/2.js
+
 x-103-push: </early/push.js>
+
 link: </preload/fake.js>; rel=preload
+
 x-push-priority: 0
+
 x-cdn-push: /cdn/test.js
+
 x-fragment-push: part1|part2|part3
+
 x-tunnel-push: /tunnel/test.js
+
 x-quic-push: /h3/test.js
+
 x-path-push: /../weird/test.js
+
 x-query-push: /test.js?check=1
+
 x-invalid-push: /invalid/test.js
+
 x-weird-push: /ñ/test.js
+
 x-exp-push: /exp/test
+
 x-bin-push: 01010101/test.js
+
 x-login-push: /auth/test.js
 
 ```---
