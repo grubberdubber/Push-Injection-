@@ -1,4 +1,5 @@
 x-push: /test/basic
+
 x-push-path: /test/path
 x-push-create: /test/create.js
 x-preload-push: /test/preload.css
