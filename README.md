@@ -1,7 +1,9 @@
 x-push: /test/basic
 
 x-push-path: /test/path
+
 x-push-create: /test/create.js
+
 x-preload-push: /test/preload.css
 :authority: injected.example
 x-h2-pseudo: /test/pseudo
